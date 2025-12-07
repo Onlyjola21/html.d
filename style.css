@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.nav {
+  background-color: rgba(248, 186, 110, 0.872);
+  background-color: #cfc2b8;
+  padding: 20px;
+  font-family: "sanchez", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: brown;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.main-container {
+  width: 100%;
+  background-image: url(./assets/images/de\ one\ main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 0 250px 0;
+  color: white;
+  background-color: rgb(191, 117, 21);
+  text-align: start;
+  line-height: 1;
+}
+
+h1 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "sanchez", sans-serif;
+  font-size: 130px;
+  font-weight: 400;
+}
+
+.sub {
+  font-size: 29px;
+  font-weight: 200;
+  margin-left: 453px;
+}
+
+.card {
+  /* padding: 30px; */
+  background-color: #cfc2b8;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  color: white;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+img {
+  width: 363px;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 5px;
+}
+
+
+.left-card {
+  font-size: 21px;
+  font-weight: 200;
+  word-spacing: 16px;
+  padding: 3px;
+  background-color: #d4c9c0d6;
+  border: 2px solid #cfc2b8;
+  border-radius: 10px;
+}
+
+.middle-card {
+  font-size: 21px;
+  font-weight: 200;
+  word-spacing: 16px;
+  padding: 3px;
+  background-color: #d4c9c0d6;
+  border: 2px solid #cfc2b8;
+  border-radius: 10px;
+}
+
+.right-card {
+  font-size: 21px;
+  font-weight: 200;
+  word-spacing: 16px;
+  padding: 3px;
+  background-color: #d4c9c0d6;
+  border: 2px solid #cfc2b8;
+  border-radius: 10px;
+}
+
+.card-p {
+  max-width: 350px;
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 0;
+  margin-top: 7px;
+  padding-bottom: 10px;
+  color: rgb(111, 105, 105);
+}
+
+.reservation {
+  background-image: url(./assets/images/de-one-alt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 330px;
+  padding-bottom: 290px;
+  padding-right: 270px;
+  color: white;
+  text-align: end;
+}
+
+.reserve-headings {
+  margin-right: -35px;
+  margin-top: -140px;
+}
+
+.rh {
+  font-size: 100px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.rp {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* word-spacing: 3px; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .main-container {
+    background-image: url(./assets/images/mobile-main-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0 90px 0;
+  }
+
+  .nav a {
+    display: none;
+  }
+
+  h1 {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .sub {
+    font-size: 19px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .card {
+    display: grid;
+    padding: 0;
+    gap: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  img {
+    width: 313px;
+    height: 210px;
+  }
+
+  .left-card {
+    font-size: 18px;
+  }
+
+  .middle-card {
+    font-size: 18px;
+  }
+
+  .right-card {
+    font-size: 18px;
+  }
+
+  .card-p {
+    max-width: 300px;
+    font-size: 15px;
+  }
+
+  .reservation {
+    background-image: url(./assets/images/de-one-alt-mobile-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0 90px 0;
+  }
+
+  .reserve-headings {
+    margin: 0;
+    margin-right: 15px;
+    margin-top: -40px;
+  }
+
+  .rh {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .rp {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+}
